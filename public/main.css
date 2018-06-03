@@ -1,0 +1,56 @@
+#title {
+	font-family: 'Exo 2', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	text-align: center;
+	padding-top: 15%;
+}
+
+#subtitle {
+	font-family: 'Exo 2', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 15px;
+	text-align: center;
+	padding-top: 5%;
+}
+
+.nav-item {
+	font-family: 'Exo 2', sans-serif;
+}
+
+#aperture-navbar {
+	width: 30px;
+}
+
+#red-dot-container {
+	margin-top: 8%;
+	text-align: center;
+}
+
+#red-dot-1 {
+	width: 1%;
+	animation-name: run-left;
+	animation-duration: 1.5s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+
+#red-dot-2 {
+	width: 1%;
+	animation-name: run-right;
+	animation-duration: 1.5s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+}
+
+@keyframes run-left {
+	0% { transform: translateX(-200px) }
+	50% { transform: translateX(200px) }
+	100% { transform: translateX(-200px); }
+}
+
+@keyframes run-right {
+	0% { transform: translateX(200px) }
+	50% { transform: translateX(-200px) }
+	100% { transform: translateX(200px); }
+}
