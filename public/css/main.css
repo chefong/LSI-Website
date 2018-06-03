@@ -1,3 +1,11 @@
+body {
+	background-color: #f7f7f7;
+}
+
+.navbar {
+	background-color: #f7f7f7;
+}
+
 #title {
 	font-family: 'Exo 2', sans-serif;
 	text-transform: uppercase;
@@ -22,25 +30,32 @@
 	width: 30px;
 }
 
+#section1 {
+	height: 100vh;
+	background: linear-gradient(#f7f7f7, #f7f7f7 70%, #d1c5ad);
+}
+
 #red-dot-container {
 	margin-top: 8%;
 	text-align: center;
 }
 
 #red-dot-1 {
-	width: 1%;
+	width: 0.75em;
 	animation-name: run-left;
 	animation-duration: 1.5s;
 	animation-fill-mode: both;
 	animation-iteration-count: infinite;
+	animation-delay: 0.5s;
 }
 
 #red-dot-2 {
-	width: 1%;
+	width: 0.75em;
 	animation-name: run-right;
 	animation-duration: 1.5s;
 	animation-fill-mode: both;
 	animation-iteration-count: infinite;
+	animation-delay: 0.5s;
 }
 
 @keyframes run-left {
@@ -53,4 +68,29 @@
 	0% { transform: translateX(200px) }
 	50% { transform: translateX(-200px) }
 	100% { transform: translateX(200px); }
+}
+
+#section2 {
+	background-color: #d1c5ad;
+}
+
+#section2 h3 {
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	margin-top: 20%;
+}
+
+#section2 p {
+	font-family: 'Exo 2', sans-serif;
+	margin: 5%;
+}
+
+#section3 {
+	background-color: #d1c5ad;
+}
+
+#team {
+	font-family: 'Exo 2', sans-serif;
+	text-align: center;
+	margin: 2% 0;
 }
