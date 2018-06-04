@@ -24,6 +24,11 @@ body {
 
 .nav-item {
 	font-family: 'Exo 2', sans-serif;
+	padding-left: 10%;
+}
+
+.navbar-nav > .nav-item {
+	margin-left: 1em;
 }
 
 #aperture-navbar {
@@ -42,8 +47,8 @@ body {
 
 #red-dot-1 {
 	width: 0.75em;
-	animation-name: run-left;
-	animation-duration: 1.5s;
+	animation-name: run-left-1;
+	animation-duration: 0.01s;
 	animation-fill-mode: both;
 	animation-iteration-count: infinite;
 	animation-delay: 0.5s;
@@ -51,23 +56,53 @@ body {
 
 #red-dot-2 {
 	width: 0.75em;
-	animation-name: run-right;
-	animation-duration: 1.5s;
+	animation-name: run-right-1;
+	animation-duration: 0.01s;
 	animation-fill-mode: both;
 	animation-iteration-count: infinite;
 	animation-delay: 0.5s;
 }
 
-@keyframes run-left {
-	0% { transform: translateX(-200px) }
-	50% { transform: translateX(200px) }
-	100% { transform: translateX(-200px); }
+#red-dot-3 {
+	width: 0.75em;
+	animation-name: run-left-2;
+	animation-duration: 0.01s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-delay: 0.5s;
 }
 
-@keyframes run-right {
+#red-dot-4 {
+	width: 0.75em;
+	animation-name: run-right-2;
+	animation-duration: 0.01s;
+	animation-fill-mode: both;
+	animation-iteration-count: infinite;
+	animation-delay: 0.5s;
+}
+
+@keyframes run-left-1 {
+	0% { transform: translateX(-200px) }
+	50% { transform: translateX(200px) }
+	100% { transform: translateX(-200px) }
+}
+
+@keyframes run-right-1 {
 	0% { transform: translateX(200px) }
 	50% { transform: translateX(-200px) }
-	100% { transform: translateX(200px); }
+	100% { transform: translateX(200px) }
+}
+
+@keyframes run-left-2 {
+	0% { transform: translateX(-100px) }
+	50% { transform: translateX(100px) }
+	100% { transform: translateX(-100px) }
+}
+
+@keyframes run-right-2 {
+	0% { transform: translateX(100px) }
+	50% { transform: translateX(-100px) }
+	100% { transform: translateX(100px) }
 }
 
 #section2 {
