@@ -112,7 +112,7 @@ body {
 #section2 h3 {
 	font-family: 'Exo 2', sans-serif;
 	text-align: center;
-	margin-top: 20%;
+	margin-top: 10%;
 }
 
 #section2 p {
@@ -128,4 +128,53 @@ body {
 	font-family: 'Exo 2', sans-serif;
 	text-align: center;
 	margin: 2% 0;
+}
+
+.person {
+	text-align: center;
+}
+
+.person-image {
+	border-radius: 50%;
+	margin-bottom: 2%;
+}
+
+.person-image-outter {
+	border-radius: 50%;
+	margin-bottom: 2%;
+	box-shadow: 5px 5px 5px grey
+}
+
+.person-name {
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bold;
+}
+
+.person-title {
+	font-family: 'Exo 2', sans-serif;
+	margin-bottom: 4%;
+}
+
+.modal-image {
+	text-align: center;
+}
+
+#nami-d {
+	width: 50%;
+}
+
+#anita-c {
+	width: 50%;
+}
+
+#eric-o {
+	width: 52%;
+}
+
+.modal-title {
+	font-family: 'Exo 2', sans-serif;
+}
+
+.modal-body {
+	font-family: 'Exo 2', sans-serif;
 }
